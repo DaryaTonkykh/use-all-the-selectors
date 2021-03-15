@@ -1,9 +1,15 @@
 html {
-  box-sizing: border-box;
   background-color: #fdf6e3;
+}
+
+.logo { text-transform: uppercase;
 }
 
 nav ol {
   list-style-type: inherit;
   font-family: sans-serif;
+}
+
+footer > .copyright {
+
 }
