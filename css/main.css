@@ -2,13 +2,14 @@ html {
   box-sizing: border-box;
   background-color: #fdf6e3;
 }
-header{
+header,footer {
   font-size: 1.5rem;
 }
 
 class wrapper {
-
 }
+
+
 
 .logo { text-transform: uppercase;
 }
@@ -24,6 +25,6 @@ ol li:first-child {
 ol li:last-child {
   color: #2aa198;}
 
-  footer > .copyright {
-
+  .types {
+    background-color: #657ba3;
   }
