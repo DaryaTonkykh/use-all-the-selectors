@@ -2,12 +2,13 @@ html {
   box-sizing: border-box;
   background-color: #fdf6e3;
 }
+
 header, footer {
   font-size: 1.5rem;
 }
 
 body {
-  color: #719e47;
+  background-color: #fdf6e3;
 }
 
 .logo {
@@ -38,6 +39,10 @@ nav ul {
 
 .wrapper {
   max-width: 38em;
+  background-color: #eee8d5;
+}
+
+.wrapper .dfn {
   background-color: #b58900;
 }
 
@@ -53,12 +58,16 @@ ol li:last-child {
   color: #2aa198;
 }
 
-ol li:nth-child(odd) {
-  background: #657ba3;
+ul li:nth-child(odd) {
+  background-color: #657ba3;
 }
 
-ol li:nth-child(even) {
-  background: #586e75;
+ul li:nth-child(even) {
+  background-color: #586e75;
+}
+
+ul li:nth-child(3n+3) {
+  background-color: #d04b16;
 }
 
 ol li .types {
@@ -67,6 +76,10 @@ ol li .types {
 
 a {
   background-color: #719e07;
+}
+
+.external {
+  background-color: #2694d8;
 }
 
 a .no-highlight {
